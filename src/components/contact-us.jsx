@@ -1,17 +1,23 @@
 import React from 'react';
-import picture1 from '../images/Shivang_gohel.jpeg';
-import picture2 from '../images/Kaushal_Patil.jpg';
-import picture3 from '../images/Nisarg_Thoriya.jpg';
-import picture4 from '../images/Jeet_Shah.jpg';
-import picture5 from '../images/Prachee_Javiya.jpg';
-import picture6 from '../images/Arpitsinh_Vaghela.jpeg';
-import picture7 from '../images/Divye_Kanawala.jpg';
-import picture8 from '../images/Viraj_Boghani.jpg';
-import picture9 from '../images/Ankit_Devani.jpg';
-import picture10 from '../images/Panth_Patel.jpg';
-import picture11 from '../images/Sanket_J_Shah.jpg';
-import picture12 from '../images/Samkit_Kundalia.jpg';
-import picture13 from '../images/Sanket_B_Shah.jpg';
+
+import picture1 from '../images/Core/Nisarg_Thoriya.jpg';
+import picture2 from '../images/Core/Kaushal_Patil.jpg';
+import picture3 from '../images/Core/Ankit_Devani.jpeg';
+import picture4 from '../images/Core/Viraj_Boghani.jpg';
+import picture5 from '../images/Core/Kashish_Jivani.jpg';
+import picture6 from '../images/Core/Harsh_Patel.jpg';
+import picture7 from '../images/Core/Krunal_Savaj.jpeg';
+import picture8 from '../images/Core/Neel_Popat.jpg';
+import picture9 from '../images/Core/Aditi_Vasa.jpg';
+import picture10 from '../images/Core/Jay_Mehta.jpg';
+import picture11 from '../images/Core/Saurav_Pajvani.jpg';
+import picture12 from '../images/Core/Jainil_Siddhapura.jpeg';
+import picture13 from '../images/Core/Kenil_Gondaliya.jpg';
+import picture14 from '../images/Core/Anshi_Shah.jpg';
+import picture15 from '../images/Core/Yash_Longani.jpg';
+import picture16 from '../images/Core/Krina_Khakhariya.jpeg';
+import picture17 from '../images/Core/Vinay_Kakkad.jpg';
+
 
 const icon1 =
   'https://cdn.jsdelivr.net/npm/simple-icons@4.12.0/icons/whatsapp.svg';
@@ -92,7 +98,7 @@ const team_details = [
   {
     id: 8,
     name: 'Neel Popat',
-    role :'Sponsorship & Logistic head',
+    role :'Sponsorship & Logistic Head',
     image: picture8,
     whatsapp_Url: 'https://api.whatsapp.com/send?phone=+919727474707',
     gmail_Url_Url: 'mailto:viraj.b2@ahduni.edu.in',
@@ -101,8 +107,8 @@ const team_details = [
 
   {
     id: 9,
-    name: 'Jay Mehta',
-    role :'CSE Event Head',
+    name: 'Aditi Vasa',
+    role :'Content Head',
     image: picture9,
     whatsapp_Url: 'https://api.whatsapp.com/send?phone=+918866556966',
     gmail_Url_Url: 'mailto:ankit.d1@ahduni.edu.in',
@@ -111,8 +117,8 @@ const team_details = [
 
   {
     id: 10,
-    name: 'Jainil Siddhapura',
-    role :'Mechanical Event Head',
+    name: 'Jay Mehta',
+    role :'CSE Event Head',
     image: picture10,
     whatsapp_Url: 'https://api.whatsapp.com/send?phone=+918511862501',
     gmail_Url_Url: 'mailto:panth.p@ahdni.edu.in',
@@ -131,8 +137,8 @@ const team_details = [
 
   {
     id: 12,
-    name: 'Aditi Vasa',
-    role :'Content Team Head',
+    name: 'Jainil Siddhapura',
+    role :'Mechanical Event Head',
     image: picture12,
     whatsapp_Url: 'https://api.whatsapp.com/send?phone=+919409631234',
     gmail_Url_Url: 'mailto:samkit.k@ahduni.edu.in',
@@ -153,7 +159,7 @@ const team_details = [
     id: 14,
     name: 'Anshi Shah',
     role :'Social Media Head',
-    image: picture13,
+    image: picture14,
     whatsapp_Url: 'https://api.whatsapp.com/send?phone=+916354973976',
     gmail_Url_Url: 'mailto:sanket.s1@ahduni.edu.in',
     linkedLn_Url: 'https://www.linkedin.com/in/sanket-shah-978828167/',
@@ -163,7 +169,26 @@ const team_details = [
     id: 15,
     name: 'Yash Longani',
     role :'Hackathon Lead',
-    image: picture13,
+    image: picture15,
+    whatsapp_Url: 'https://api.whatsapp.com/send?phone=+916354973976',
+    gmail_Url_Url: 'mailto:sanket.s1@ahduni.edu.in',
+    linkedLn_Url: 'https://www.linkedin.com/in/sanket-shah-978828167/',
+  },
+  {
+    id: 16,
+    name: 'Krina Khakhariya',
+    role :'Decoration Head',
+    image: picture16,
+    whatsapp_Url: 'https://api.whatsapp.com/send?phone=+916354973976',
+    gmail_Url_Url: 'mailto:sanket.s1@ahduni.edu.in',
+    linkedLn_Url: 'https://www.linkedin.com/in/sanket-shah-978828167/',
+  },
+
+  {
+    id: 17,
+    name: 'Vinay Kakkad',
+    role :'Tech Head',
+    image: picture17,
     whatsapp_Url: 'https://api.whatsapp.com/send?phone=+916354973976',
     gmail_Url_Url: 'mailto:sanket.s1@ahduni.edu.in',
     linkedLn_Url: 'https://www.linkedin.com/in/sanket-shah-978828167/',
